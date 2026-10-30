@@ -343,7 +343,7 @@ a {
     background-color: #0b0f19;
     color: #64748b;
     padding: 2rem 0;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     border-top: 1px solid var(--border);
 }
 
@@ -351,6 +351,18 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1.5rem;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.cc-license a {
+    color: var(--primary);
+    text-decoration: underline;
 }
 
 .footer-links {
@@ -376,11 +388,9 @@ a {
         justify-content: center;
     }
 
-    .contact-info {
-        text-align: left;
-    }
-
-    .form-group {
-        text-align: left;
+    .contact-info,
+    .form-group,
+    .footer-info {
+        text-align: center;
     }
 }
