@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelVault &bull; Contacto y Soporte</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container navbar">
+            <a href="index.html" class="brand-logo">Pixel<span>Vault</span></a>
+            <nav class="nav-links">
+                <a href="index.html">Inicio</a>
+                <a href="catalogo.html">Catálogo</a>
+                <a href="contacto.html" class="btn btn-outline active">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact">
+            <div class="container">
+                <div class="contact-box">
+                    <div class="contact-info">
+                        <h2>Soporte Gamer 24/7</h2>
+                        <p>¿Tienes alguna duda sobre una clave, tu pedido o quieres proponernos una sugerencia? Ponte en contacto con nuestro equipo.</p>
+                        <div class="info-item">
+                            <strong>Correo soporte:</strong> ayuda@pixelvault.com
+                        </div>
+                        <div class="info-item">
+                            <strong>Atención al cliente:</strong> Lunes a Domingo, 24 horas
+                        </div>
+                        <div class="info-item">
+                            <strong>Ubicación:</strong> Madrid, España
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Ej. Carlos Gamer" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="asunto">Asunto / Nº de Pedido</label>
+                            <input type="text" id="asunto" name="asunto" placeholder="Ej. Duda con clave de Steam" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe aquí los detalles de tu consulta..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Enviar consulta</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 PixelVault. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="#">Términos y Condiciones</a>
+                <a href="#">Privacidad</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
